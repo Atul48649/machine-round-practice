@@ -1,5 +1,6 @@
 import './App.css';
 import CounterApp from './Components/CounterApp';
+import FetchDataFromApiAndRender from './Components/FetchDataFromApiAndRender';
 import TodoList from './Components/TodoList';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       <h1>React App</h1>
       {/* <CounterApp /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <FetchDataFromApiAndRender />
     </div>
   );
 }
